@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    overflow: hidden;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+    
+  .navbar a {
+    color: rgb(141, 136, 136);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+.logo {
+    margin-right:300px;
+  }
+  .navbar a:hover {
+    color: #000000; /* Darker shade of black */
+  }
+  
+  .navbar a:nth-child(4) {
+    border-right: 1px solid rgb(209, 207, 207); /* Add vertical line after "Offres d'emploi" */
+    padding-right: 15px; /* Adjust padding to create space */
+  }
+  .iden {
+    border: 2px solid #0077b5;
+    color: #0077b5;
+    border-radius: 25px;
+    
+
+  }
+  .navbar a:hover:nth-last-child(-n+1) {
+    background-color: #d1ecfa; /* Add border around last two links when hovered */
+     /* Add border radius for a rounded shape */
+  }
+  .navbar a:hover:nth-child(6) {
+    color: rgb(105, 102, 102);
+    background-color: #d8d8d8; /* Add border around last two links when hovered */
+    border-radius: 25px; /* Add border radius for a rounded shape */
+  }
